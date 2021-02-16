@@ -5,7 +5,7 @@ FROM node:12.19.0
 WORKDIR /app
 
 # here we are setting enviorment variables
-ENV PORT 3000
+ENV PORT 3001
 
 # here we are copying our package.json file into app that tells node what modules we gonna use for application requirements
 COPY package.json /app/package.json
